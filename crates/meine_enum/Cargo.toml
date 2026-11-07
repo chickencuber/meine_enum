@@ -10,7 +10,7 @@ repository = "https://github.com/chickencuber/meine_enum"
 description = "just a bunch of enum based helpers"
 
 [dependencies]
-meine_enum_proc="*"
+meine_enum_proc="0.1"
 [features]
 default = []
 standard= ["meine_enum_proc/standard"]
