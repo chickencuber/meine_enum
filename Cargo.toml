@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+
+[patch.crates-io]
+meine_enum = { path = "./crates/meine_enum/" }
+meine_enum_proc = { path = "./crates/meine_enum_proc/" }

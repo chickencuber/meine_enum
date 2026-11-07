@@ -1,0 +1,10 @@
+[package]
+name = "meine_enum"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+meine_enum_proc="*"
+[features]
+default = []
+standard= ["meine_enum_proc/standard"]

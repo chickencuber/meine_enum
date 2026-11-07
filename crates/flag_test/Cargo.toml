@@ -1,0 +1,9 @@
+[package]
+name = "flag_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+meine_enum = "*"
+serde = { version = "1.0", features = ["derive"] }
+ron = "0.12.3"
