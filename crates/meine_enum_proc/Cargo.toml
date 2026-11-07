@@ -3,6 +3,12 @@ name = "meine_enum_proc"
 version = "0.1.0"
 edition = "2024"
 
+
+license = "MIT"
+authors = ["chickencuber"]
+repository = "https://github.com/chickencuber/meine_enum"
+description = "just a bunch of enum based helpers"
+
 [lib]
 proc-macro = true
 
