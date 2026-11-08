@@ -16,6 +16,7 @@ meine_enum = {
 - transform an enum into a bitflag type with an ergonomic api
 - it has derive pass through and an enum member is iterable
 - it automatically picks the smallest possible uint type for the given enum 
+- now supports enums with more than 128 variants, I am confident enough to say that it will work for large variant lengths, if you have 50,000 variants and it doesn't work… why are you using 50,000 variants
 ```rust
 use meine_enum::Flag; //or meine_enum::flag if using feature=["standard"]
 
