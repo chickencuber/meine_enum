@@ -1,6 +1,6 @@
 [package]
 name = "meine_enum"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 
 
@@ -10,7 +10,8 @@ repository = "https://github.com/chickencuber/meine_enum"
 description = "just a bunch of enum based helpers"
 
 [dependencies]
-meine_enum_proc="0.1"
+meine_enum_proc = "0.2.0"
 [features]
 default = []
-standard= ["meine_enum_proc/standard"]
+standard = ["meine_enum_proc/standard"]
+test = ["meine_enum_proc/test"]

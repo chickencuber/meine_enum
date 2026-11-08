@@ -1,4 +1,6 @@
 pub use meine_enum_proc::*;
+mod bitmask;
+pub use bitmask::BitMask;
 
 
 pub trait ToFlagIter: Copy {
